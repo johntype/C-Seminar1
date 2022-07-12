@@ -13,6 +13,10 @@ int num_2 = Convert.ToInt32(Console.ReadLine());
     {
         Console.WriteLine($"Неравенство чисел: {num_1} < {num_2}");
     }
+    else if  (num_1 == num_2)
+    {  
+        Console.WriteLine($"Равенство чисел: {num_1} = {num_2}");
+    }
     else 
     {
         Console.WriteLine($"Неравенство чисел: {num_1} > {num_2}");
