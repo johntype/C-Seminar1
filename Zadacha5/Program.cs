@@ -7,7 +7,7 @@
 
 Console.Clear();
 Console.Write("Write a number N: ");
-int n = int.Parse(Console.ReadLine()); // Convert.ToInt32(Console.ReadLine())
+int n = Convert.ToInt32(Console.ReadLine()); // int.Parse(Console.ReadLine())
 
 int i = 0;
 
