@@ -27,7 +27,3 @@ else if (num_1 == num_2 && num_1 == num_3 && num_2 == num_3)
     {
         Console.WriteLine("Числа равны");
     }
-else
-    {
-         Console.WriteLine("Ошибка");
-    }   
