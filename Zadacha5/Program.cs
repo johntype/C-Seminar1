@@ -14,7 +14,7 @@ int i = 0;
 if (n < 0)
 {
 i = n;
-n = -n;
+n = n * -1;
 }
 else
 {
@@ -23,6 +23,6 @@ i = -n;
 
 while (i <= n)
 {
-Console.WriteLine(i);
+Console.Write($" {i} ");
 i++;
 }
